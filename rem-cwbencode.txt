@@ -1,0 +1,6 @@
+cwb-encode -c utf8 -d /corpora/data/rem -F /Users/stefanhartmann/OneDrive/Dokumente/Korpora_fuer_CQP/rem-vrt_neu -R /usr/local/share/cwb/registry/rem -xsB -P tok_anno -P infl -P inflClass -P inflClass_gen -P lemma -P lemma_gen -P lemma_idmwb -P norm -P pos -P pos_gen -P punc -P token_type -S p:0 -S text:0+abbr_ddd+abbr_mwb+annotation_by+collation_by+corpus+date+digitization_by+edition+extent+extract+genre+language+language-area+language-region+language-type+library+library-shelfmark+medium+notes-annotation+notes-manuscript+notes-transcription+online+place+pre_editing_by+proofreading_by+reference+reference-secondary+text+text-author+text-language+text-place+text-source+text-type+time+topic+annis_doc
+
+cwb-make -r /usr/local/share/cwb/registry -V REM
+
+
+
